@@ -1,0 +1,39 @@
+/* Write your CSS code here */
+.home-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 40px;
+  overflow: auto;
+}
+
+.home-heading {
+  color: #1e293b;
+  font-family: 'Roboto';
+  max-width: 380px;
+}
+
+.home-description {
+  color: #64748b;
+  font-family: 'Roboto';
+  text-align: justify;
+  margin-right: 130px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.shop-now-btn {
+  background-color: #0967d2;
+  color: #ffffff;
+  font-family: 'Roboto';
+  border-width: 0;
+  height: 35px;
+  width: 150px;
+  border-radius: 5px;
+}
+
+.home-img{
+  height: 520px;
+  width: auto;
+}
